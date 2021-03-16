@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous';
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 10rem;
+    text-transform: uppercase;
+}
+
+.light {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at var(--x) var(--y), transparent 10%, rgba(0,0,0,0.95) 20%);
+}
